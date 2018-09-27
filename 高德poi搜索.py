@@ -1,5 +1,10 @@
 from urllib.parse import quote
 from urllib import request
+import os
+os.system('pip install json')
+os.system('pip install xlwt')
+os.system('pip install xlrd')
+os.system('pip install xlutils')
 import json
 import xlwt
 from xlrd import open_workbook
