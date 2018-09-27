@@ -13,7 +13,7 @@ path=winreg.QueryValueEx(regkey, "Desktop")[0]+'\\'
 #下面的这三行可以修改，第一行可以改成你自己申请的key，第二行是城市，第三行是关键词
 amap_web_key = '2d68d475f1032ee055a9efa1f8bbf119'
 cityname = "绍兴"
-classfiled = "培训机构"
+classfiled = "培训机构"+"柯桥区"
 #默认在桌面生成一个以城市命名的excel文件
 filename = path + cityname + '.xls' 
 #链接的网址
